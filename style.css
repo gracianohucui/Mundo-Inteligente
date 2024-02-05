@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+
+header{
+    padding: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 793px;
+    margin: auto;
+
+}
+
+header > h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 16.5px;
+    margin-bottom: 16.5px;
+
+}
+
+header > p{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav{
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 2px rgb(0 0 0 / 38%);
+    max-width: 259px;
+
+}
+
+nav > a{
+    padding: 6.7px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+nav > a:hover{
+    transition-duration: 0.4s;
+    font-weight: bold;
+    color: coral;
+
+}
+
+main{
+    background-color: white;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px 2px rgb(0 0 0 / 38%);
+
+}
+
+section{
+    line-height: 25px;
+
+}
+
+p.bemvindo{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+p.descricao{
+    text-align: center;
+    font-weight: bold;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+p#pequeno{
+    margin-top: 10px;
+    font-size: 1em;
+
+}
+
+p.conteudo{
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 10px;
+    line-height: 2em;
+
+}
+
+hr{
+    margin-bottom: 15px;
+    border: 1px solid rgb(212, 89, 44);
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+
+}
+
+q > a{
+    text-decoration: none;
+    color: coral;
+    font-weight: bold;
+
+}
+
+section > h1{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(252, 210, 155, 0.781);
+
+}
+
+section > h1#h1{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    background-color: rgba(252, 210, 155, 0.781);
+
+}
+
+section > h1#h12{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    background-color: rgba(252, 210, 155, 0.781);
+
+}
+
+section > h3{
+    margin: 15px;
+
+}
+
+strong{
+    color: rgb(168, 88, 59);
+    font-weight: bold;
+
+}
+
+footer{
+    background-color: rgba(252, 210, 155, 0.781);
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+
+header{
+    padding: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 793px;
+    margin: auto;
+
+}
+
+header > h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 16.5px;
+    margin-bottom: 16.5px;
+
+}
+
+header > p{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav{
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 2px rgb(0 0 0 / 38%);
+    max-width: 325px;
+
+}
+
+nav > a{
+    padding: 6.7px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+nav > a:hover{
+    transition-duration: 0.4s;
+    font-weight: bold;
+    color: rgba(252, 210, 155, 0.781);
+
+}
+
+main{
+    background-color: white;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px 2px rgb(0 0 0 / 38%);
+
+}
+
+section{
+    line-height: 25px;
+
+}
+
+p.bemvindo{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+p.descricao{
+    text-align: center;
+    font-weight: bold;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+p#pequeno{
+    margin-top: 10px;
+    font-size: 1em;
+
+}
+
+hr{
+    margin-bottom: 15px;
+    border: 1px solid rgb(212, 89, 44);
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+
+}
+
+div > a > button{
+    width: 100%;
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: rgba(252, 210, 155, 0.781);
+    border-radius: 10px;
+
+} 
+
+div > a > button:hover{
+    background-color: rgba(255, 127, 80, 0.664);
+    transition-duration: 0.1s;
+
+}
+
+div{
+    display: inline;
+    width: 100%;
+
+}
+
+footer{
+    background-color: rgba(252, 210, 155, 0.781);
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
